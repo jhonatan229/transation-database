@@ -23,10 +23,6 @@ public class Program {
 			
 			int rows1 = ps.executeUpdate("UPDATE seller SET BaseSalary = 2090 WHERE DepartmentId = 1");
 			
-			int x = 2;
-			if (x == 2) {
-				throw new SQLException("FAKE ERROR ");
-			}
 		
 			int rows2 = ps.executeUpdate("UPDATE seller SET BaseSalary = 3090 WHERE DepartmentId = 2");
 			
